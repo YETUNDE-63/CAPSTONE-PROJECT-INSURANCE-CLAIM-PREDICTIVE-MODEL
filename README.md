@@ -37,3 +37,7 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
   - Categorical features label-encoded
   - Target encoding applied to Geo_Code
   - Log transformation for building dimension
+ 
+### Tool Used
+-------------------
+
