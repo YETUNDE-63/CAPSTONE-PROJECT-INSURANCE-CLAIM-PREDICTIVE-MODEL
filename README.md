@@ -54,3 +54,14 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
   3. Categorical features label-encoded
   4. Target encoding applied to Geo_Code
   5. Log transformation for building dimension
+
+### Exploratory Data Analysis
+-----------------------------
+- This is to undrestand the patterns and relationships between Features & the Target (Claim) before modelling, such as:
+  1. Overall Claim Rate
+  2. Claim Rate by key Categorical Features
+  3. Distribution of Numeric Features vs Claim
+  4. Distribution of Numeric Features (overall)
+     - Numeric Features vs Claim
+     - Claim Rate by Numeric Bins
+     - Categorical Variable Encoding strategy
