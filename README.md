@@ -100,14 +100,3 @@ Interpretation: Model predicts both claim occurrence and claim likelihood. Predi
 |Geo_Code_74173|-0.250|Decreases Risk|
 |Geo_Code_42187|-0.245|Decreases Risk|
 
-Feature	Coefficient	Effect on Risk
-Log_Building_Dimension	0.926	Increases Risk
-Building_Fenced_V	0.583	Increases Risk
-Insured_Period	0.391	Increases Risk
-Building_Age	0.359	Increases Risk
-Geo_Code_6088	0.249	Increases Risk
-Garden_V	-0.425	Decreases Risk
-Geo_Code_74010	-0.284	Decreases Risk
-Geo_Code_19031	-0.268	Decreases Risk
-Geo_Code_74173	-0.250	Decreases Risk
-Geo_Code_42187	-0.245	Decreases Risk
