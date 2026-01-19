@@ -9,7 +9,7 @@
 
 [Tool Used](#tool-used)
 
-[Data Cleaning and Preparations](#data-cleaning-and-preparations)
+[Data Cleaning and Preprocessing](#data-cleaning-and-preprocessing)
 
 [Exploratory Data Analysis](#exploratory-data-analysis)
 
@@ -46,3 +46,11 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
   3. For Visualizayion
   4. For Model Development
 
+### Data Cleaning and Preprocessing
+-----------------------------------
+- In the initial phase of the Data Cleaning and preprocessing, the following tasks were performed:
+  1. Import libraries and dataset loading
+  2. Handling missing variables
+  3. Categorical features label-encoded
+  4. Target encoding applied to Geo_Code
+  5. Log transformation for building dimension
