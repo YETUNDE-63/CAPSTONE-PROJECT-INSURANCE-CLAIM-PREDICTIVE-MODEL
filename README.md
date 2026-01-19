@@ -65,3 +65,23 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
      - Numeric Features vs Claim
      - Claim Rate by Numeric Bins
      - Categorical Variable Encoding strategy
+
+### Models Development
+-----------------------------
+1. Model type: Random Forest Classifier
+- n_estimators: 300
+- Class weighting: Balanced to mitigate class imbalance
+- Train-test split: 80/20 stratified
+- Threshold tuning: Optimal threshold for class 1 set at 0.25
+- Model predicts both claim occurrence and claim likelihood
+
+- Model Performance (Test Set, Threshold=0.25)
+Confusion Matrix:
+[[787 318]
+ [174 153]]
+
+Classification Report:
+Class 0: Precision=0.82, Recall=0.71, F1=0.76
+Class 1: Precision=0.32, Recall=0.47, F1=0.38
+Accuracy: 0.66
+Interpretation: Model predicts both claim occurrence and claim likelihood. Predicted probabilities can be used to rank policies by risk.
