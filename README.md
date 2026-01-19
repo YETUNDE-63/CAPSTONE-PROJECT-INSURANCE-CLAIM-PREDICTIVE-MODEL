@@ -87,6 +87,11 @@ Accuracy: 0.66
 Interpretation: Model predicts both claim occurrence and claim likelihood. Predicted probabilities can be used to rank policies by risk.
 
 #### Top Features (Coefficient & Effect)
+|Feature|Coefficient|Effect on Risk|
+|---------|---------|---------|
+|Table 1|Table 2|Table 3|
+
+
 Feature	Coefficient	Effect on Risk
 Log_Building_Dimension	0.926	Increases Risk
 Building_Fenced_V	0.583	Increases Risk
