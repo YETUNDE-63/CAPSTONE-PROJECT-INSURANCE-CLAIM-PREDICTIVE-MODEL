@@ -88,9 +88,17 @@ Interpretation: Model predicts both claim occurrence and claim likelihood. Predi
 
 #### Top Features (Coefficient & Effect)
 |Feature|Coefficient|Effect on Risk|
-|---------|---------|---------|
+|-------|-----------|--------------|
+|Log_Building_Dimension|0.926|Increases Risk|
 |Table 1|Table 2|Table 3|
-
+|Table 1|Table 2|Table 3|
+|Table 1|Table 2|Table 3|
+|Table 1|Table 2|Table 3|
+|Table 1|Table 2|Table 3|
+|Table 1|Table 2|Table 3|
+|Table 1|Table 2|Table 3|
+|Table 1|Table 2|Table 3|
+|Table 1|Table 2|Table 3|
 
 Feature	Coefficient	Effect on Risk
 Log_Building_Dimension	0.926	Increases Risk
