@@ -90,8 +90,7 @@ Interpretation: Model predicts both claim occurrence and claim likelihood. Predi
 |Feature|Coefficient|Effect on Risk|
 |-------|-----------|--------------|
 |Log_Building_Dimension|0.926|Increases Risk|
-|Building_Fenced_V|Table 2|Table 3|
-|Insured_Period|0.583|Increases Risk|
+|Building_Fenced_V|0.583|Increases Risk|
 |Insured_Period|0.391|Increases Risk|
 |Building_Age|0.359|Increases Risk|
 |Geo_Code_6088|0.249|Increases Risk|
