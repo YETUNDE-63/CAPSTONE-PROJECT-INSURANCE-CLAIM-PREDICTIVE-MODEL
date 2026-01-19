@@ -81,10 +81,10 @@ Confusion Matrix:
  [174 153]]
 
 Classification Report:
-- Class 0: Precision=0.82, Recall=0.71, F1=0.76
-- Class 1: Precision=0.32, Recall=0.47, F1=0.38
-- Accuracy: 0.66
-- Interpretation: Model predicts both claim occurrence and claim likelihood. Predicted probabilities can be used to rank policies by risk.
+* Class 0: Precision=0.82, Recall=0.71, F1=0.76
+* Class 1: Precision=0.32, Recall=0.47, F1=0.38
+* Accuracy: 0.66
+Interpretation: Model predicts both claim occurrence and claim likelihood. Predicted probabilities can be used to rank policies by risk.
 
 #### Top Features (Coefficient & Effect)
 |Feature|Coefficient|Effect on Risk|
