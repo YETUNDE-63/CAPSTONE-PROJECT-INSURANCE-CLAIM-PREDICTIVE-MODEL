@@ -48,7 +48,7 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 
 ### Data Cleaning and Preprocessing
 -----------------------------------
-- In the initial phase of the Data Cleaning and preprocessing, the following tasks were performed:
+- In the initial phase of this project, data cleaning and preprocessing were performed, by carrying out the following tasks :
   1. Import libraries and dataset loading
   2. Handling missing variables
   3. Categorical features label-encoded
