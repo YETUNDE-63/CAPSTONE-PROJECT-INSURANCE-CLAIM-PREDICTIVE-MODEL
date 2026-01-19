@@ -7,7 +7,7 @@
 
 [Data Overview](#data-overview)
 
-[Tools Used](#tools-used)
+[Tool Used](#tool-used)
 
 [Data Cleaning and Preparations](#data-cleaning-and-preparations)
 
@@ -40,4 +40,9 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
  
 ### Tool Used
 -------------------
+- python [Download Here](http://www.python.com)
+  1. Import Libraries and Load Dataset
+  2. For Data Cleaning & Preprocessing
+  3. For Visualizayion
+  4. For Model Development
 
