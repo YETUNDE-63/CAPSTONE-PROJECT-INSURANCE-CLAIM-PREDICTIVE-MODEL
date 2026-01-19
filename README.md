@@ -5,7 +5,7 @@
 
 [Project Objective](#project-objective)
 
-[Data Sources](#data-sources)
+[Data Overview](#data-overview)
 
 [Tools Used](#tools-used)
 
@@ -27,4 +27,13 @@
 -------------------
 The purpose of this analysis is to determine whether a claim is likely to occur during a certain period (Claim Occurrence - Classification), and to predict the likelihood of an insurance claim for buildings (Claim Probability - Predict_proba) based on the building characteristics. 
 
-
+### Data Overview
+-------------------
+- Dataset size: 7160 rows × 18 columns
+- Features used: YearOfObservation, Insured_Period, Residential, Building_Painted, Building_Fenced, Garden, Settlement, Building Dimension, Building_Type, Date_of_Occupancy, NumberOfWindows, Date_of_Occupancy_missing, Building_Age, Log_Building_Dimension, Geo_Code_te
+- Target variable: Claim (1 = claim, 0 = no claim)
+- Preprocessing performed:
+  - Missing values handled (e.g., NumberOfWindows)
+  - Categorical features label-encoded
+  - Target encoding applied to Geo_Code
+  - Log transformation for building dimension
