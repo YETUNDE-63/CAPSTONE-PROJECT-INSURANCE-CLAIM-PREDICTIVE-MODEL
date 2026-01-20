@@ -1,4 +1,4 @@
-## AINOW_DSML_CAPSTONE_INSURANCECLAIM_PREDICTIVE_MODEL_PROJECT
+[Train_data.csv](https://github.com/user-attachments/files/24751763/Train_data.csv)## AINOW_DSML_CAPSTONE_INSURANCECLAIM_PREDICTIVE_MODEL_PROJECT
 
 ### Project Title: AINOW_DSML_CAPSTONE_INSURANCECLAIM_PREDICTIVE_MODEL
 ------------------
@@ -53,10 +53,9 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 ### Tool Used
 -------------------
 - python [Download Here](http://www.python.com)
-  1. Import Libraries and
-  2. Load Dataset
- "C:\Users\Admin\OneDrive - wesabimarket\Desktop\AI NOW BOOTCAMP DSML CAPSTONE PROJECT\Train_data.csv"
-   
+  1. Import Libraries and Load Dataset
+    [Uploading Train_data.csv…]()
+
   4. For Data Cleaning & Preprocessing
   5. For Visualizayion
   6. For Model Development
