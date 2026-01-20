@@ -144,11 +144,10 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 - Handles non-linearity + interactions
 - Performs well on imbalanced datasets
 - Often outperforms RF with proper tuning
-- Provides feature importance for reporting
-- Model is not overfitting on noise
-- Features align with real-world insurance logic
-- Binning + log transforms improved signal clarity
-- Geo codes are contributing meaningfully, not dominating
+- Handles non-linear interactions better than LR
+- More expressive than RF for complex patterns
+- Supports class imbalance handling
+- Produces meaningful feature importance scores
 
 ### Data Visualization
 ----------------------
