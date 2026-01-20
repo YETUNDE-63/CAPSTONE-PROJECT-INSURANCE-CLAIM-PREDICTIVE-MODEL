@@ -123,7 +123,6 @@ All models were evaluated using threshold tuning to better capture the minority 
 |Residential|0.017|Increases Risk|0.061|
 |Insured_Period|0.052|Increases Risk|0.084|
 
-
 ##### 2. Model type: Logistic Regression
 - Class weighting: Balanced to handle class imbalance
 - Train-test split: 80/20 stratified
@@ -160,17 +159,42 @@ All models were evaluated using threshold tuning to better capture the minority 
 |Geo_Code_74173|-0.250|Decreases Risk|
 |Geo_Code_42187|-0.245|Decreases Risk|
 
-
 ##### 3. Model type: XGBoost Classifier
-- Handles non-linearity + interactions
-- Performs well on imbalanced datasets
-- Often outperforms RF with proper tuning
-- Handles non-linear interactions better than LR
-- More expressive than RF for complex patterns
-- Supports class imbalance handling
-- Produces meaningful feature importance scores
-- Improve recall for high-risk (claim) cases
+Model Development:
+- XGBoost Classifier was used with scale_pos_weight = 3.38 to address class imbalance. This allows the model to prioritize correct detection of claim cases.
 
+Threshold Analysis: 
+- Multiple thresholds were tested. A threshold of 0.40 was selected as optimal due to improved recall for claim cases while maintaining acceptable precision.
+
+ ~~~Model Performance (Threshold=0.4)
+    Confusion Matrix:
+    [[659 446]
+     [100 227]]
+ ~~~
+
+~~~Classification Report:
+   Class 0: Precision=0.87, Recall=0.60, F1=0.71
+   Class 1: Precision=0.34, Recall=0.69, F1=0.45
+   Accuracy: 0.62
+
+   Macro avg: Precision=0.60, Recall=0.65
+   Weighted avg: Precision=0.75, Recall=0.62
+   Interpretation: Model predicts both claim occurrence and claim likelihood. Improved claim recall, acceptable precision trade-off.
+~~~
+
+
+ Feature	       Importance
+1225	 Building_Dimension_Bin_(2750.0, 11785.22]	     0.050959
+3	     Building Dimension	                             0.014270
+8	     Log_Building_Dimension	                         0.012992
+4	     Building_Type	                                 0.008451
+1221	Building_Age_Bin_(56.0, 165.0]	                 0.008426
+300	    Geo_Code_34902	                                 0.008027
+15	    NumberOfWindows_2	                             0.007529
+875	    Geo_Code_75114	                                 0.007404
+6	    Date_of_Occupancy_missing	                     0.007315
+1186	Geo_Code_94080	                                 0.007220
+                 
 ### Data Visualization
 ----------------------
 
