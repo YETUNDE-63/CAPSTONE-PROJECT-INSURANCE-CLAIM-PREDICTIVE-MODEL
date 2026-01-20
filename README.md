@@ -15,13 +15,12 @@
 
 [Models Development](#models-development)
 
-[Data Analysis](#data-analysis)
+[Data Visualization](#data-visualization)
 
 [Links](#links)
 
-[Data Visualization](#data-visualization)
-
 [Acknowledgement](#acknowledgement)
+
 
 ### Project Objective
 -------------------
@@ -146,3 +145,5 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 
 ##### 2. Logistic Regression
 <img width="1000" height="600" alt="LR_top_features_colored_chart" src="https://github.com/user-attachments/assets/bcc9ab36-1ddb-4890-9c6c-762ae41f66ad" />
+
+### Links
