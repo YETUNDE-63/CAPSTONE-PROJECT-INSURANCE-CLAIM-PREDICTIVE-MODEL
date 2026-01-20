@@ -109,6 +109,21 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 - Threshold tuning: Thresholds tested from 0.5 down to 0.2
 - Model predicts both claim occurrence and claim likelihood (probability output)
 
+ ~~~Model Performance (Test Set, Example Threshold=0.5)
+    Confusion Matrix:
+    [[776 329]
+    [158 169]]
+ ~~~
+
+~~~Classification Report:
+   Class 0: Precision=0.83, Recall=0.70, F1=0.76
+   Class 1: Precision=0.34, Recall=0.52, F1=0.41
+   Accuracy: 0.66
+
+   Macro avg: Precision=0.59, Recall=0.61
+   Weighted avg: Precision=0.72, Recall=0.66
+   Interpretation: Model predicts both claim occurrence and claim likelihood. Lowering threshold increases recall for high-risk policies.
+~~~
 
 #### Top Features (Coefficient & Effect)
 |Feature|Coefficient|Effect on Risk|
