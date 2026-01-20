@@ -80,10 +80,9 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
      - Claim Rate by Numeric Bins
      - Categorical Variable Encoding strategy
 
-### Models Development
------------------------------
-##### Models Evaluated
-Three classification models developed and evaluated on the same processed dataset.
+### Models Development and Evaluation
+-------------------------------------
+Three classification models were developed and evaluated on the same processed dataset.
 
 ##### 1. Model type: Random Forest Classifier
 - n_estimators: 300
