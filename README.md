@@ -89,21 +89,19 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
  ~~~
 
 #### Top Features (Importance & Effect)
-|Heading 1|Heading 2|Heading 3|Heading 4|
+|Feature|Importance|Effect on Risk|Correlation|
 |---------|---------|---------|---------|
-|Table 1|Table 2|Table 3|Table 4|
+|Geo_Code_te|	0.292|Increases Risk|0.343|
+|Building Dimension|0.174|Increases Risk|0.315|
+|Log_Building_Dimension|0.173|Increases Risk|0.311|
+|NumberOfWindows|0.042|Increases Risk|0.183|
+|Building_Type|0.041|Increases Risk|0.112|
+|YearOfObservation|0.057|Decreases Risk|-0.020|
+|Building_Age|0.113|Decreases Risk|-0.019|
+|Building_Painted|0.014|Increases Risk|0.026|
+|Residential|0.017|Increases Risk|0.061|
+|Insured_Period|0.052|Increases Risk|0.084|
 
-Feature	Importance	Effect on Risk	Correlation
-Geo_Code_te	0.292	Increases Risk	0.343
-Building Dimension	0.174	Increases Risk	0.315
-Log_Building_Dimension	0.173	Increases Risk	0.311
-NumberOfWindows	0.042	Increases Risk	0.183
-Building_Type	0.041	Increases Risk	0.112
-YearOfObservation	0.057	Decreases Risk	-0.020
-Building_Age	0.113	Decreases Risk	-0.019
-Building_Painted	0.014	Increases Risk	0.026
-Residential	0.017	Increases Risk	0.061
-Insured_Period	0.052	Increases Risk	0.084
 
 
 
