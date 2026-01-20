@@ -87,6 +87,34 @@ Confusion Matrix:
     Interpretation: Model predicts both claim occurrence and claim likelihood. Predicted probabilities can be used to rank policies by risk.
  ~~~
 
+#### Top Features (Importance & Effect)
+|Feature|Importance|Effect on Risk|Correlation|
+|-------|-----------|--------------|
+Geo_Code_te|0.292|Increases Risk|0.343|
+|Building_Fenced_V|0.583|Increases Risk|
+|Insured_Period|0.391|Increases Risk|
+|Building_Age|0.359|Increases Risk|
+|Geo_Code_6088|0.249|Increases Risk|
+|Garden_V|-0.425|Decreases Risk|
+|Geo_Code_74010|-0.284|Decreases Risk|
+|Geo_Code_19031|-0.268|Decreases Risk|
+|Geo_Code_74173|-0.250|Decreases Risk|
+|Geo_Code_42187|-0.245|Decreases Risk|
+
+Feature	Importance	Effect on Risk	Correlation
+Geo_Code_te	0.292	Increases Risk	0.343
+Building Dimension	0.174	Increases Risk	0.315
+Log_Building_Dimension	0.173	Increases Risk	0.311
+NumberOfWindows	0.042	Increases Risk	0.183
+Building_Type	0.041	Increases Risk	0.112
+YearOfObservation	0.057	Decreases Risk	-0.020
+Building_Age	0.113	Decreases Risk	-0.019
+Building_Painted	0.014	Increases Risk	0.026
+Residential	0.017	Increases Risk	0.061
+Insured_Period	0.052	Increases Risk	0.084
+
+
+
 #### Top Features (Coefficient & Effect)
 |Feature|Coefficient|Effect on Risk|
 |-------|-----------|--------------|
