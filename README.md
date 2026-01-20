@@ -148,6 +148,7 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 - More expressive than RF for complex patterns
 - Supports class imbalance handling
 - Produces meaningful feature importance scores
+- Improve recall for high-risk (claim) cases
 
 ### Data Visualization
 ----------------------
