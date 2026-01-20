@@ -140,6 +140,7 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 
 ### Data Visualization
 ----------------------
+
 ##### 1. Random Forest Classifier
 <img width="800" height="500" alt="feature_importance_colored_chart" src="https://github.com/user-attachments/assets/201ea4fd-07c8-41ea-b600-45fce1489bb4" />
 
@@ -147,7 +148,10 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 <img width="1000" height="600" alt="LR_top_features_colored_chart" src="https://github.com/user-attachments/assets/bcc9ab36-1ddb-4890-9c6c-762ae41f66ad" />
 
 ### Links
+----------------------
 [YETUNDE AKINMOJU_CAPSTONE PROJECT_INSURANCE_CLAIM.html](https://github.com/user-attachments/files/24732334/YETUNDE.AKINMOJU_CAPSTONE.PROJECT_INSURANCE_CLAIM.html)
 
 [YETUNDE AKINMOJU_CAPSTONE PROJECT_INSURANCE_CLAIM.ipynb](https://github.com/user-attachments/files/24732353/YETUNDE.AKINMOJU_CAPSTONE.PROJECT_INSURANCE_CLAIM.ipynb)
 
+### Acknowledgement
+----------------------
