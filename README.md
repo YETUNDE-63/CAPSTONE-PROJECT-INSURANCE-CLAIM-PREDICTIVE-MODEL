@@ -15,6 +15,10 @@
 
 [Models Development and Evaluation](#models-development-and-evaluation)
 
+[Key Insight](#key-insight)
+
+[Conclusion](#conclusion)
+
 [Data Visualization](#data-visualization)
 
 [Links](#links)
@@ -188,6 +192,17 @@ Threshold Analysis:
 |875|Geo_Code_75114|0.007404|
 |6|Date_of_Occupancy_missing|0.007315|
 |1186|Geo_Code_94080|0.007220|
+
+### Key Insight
+---------------
+- Claim risk is driven primarily by property size, age, and location
+- Structural and design characteristics materially affect exposure
+
+### Conclusion
+--------------
+The XGBoost model:
+- Outperforms traditional linear approaches in capturing complex risk patterns
+- Provides strong recall for claims when threshold-tuned
                 
 ### Data Visualization
 ----------------------
