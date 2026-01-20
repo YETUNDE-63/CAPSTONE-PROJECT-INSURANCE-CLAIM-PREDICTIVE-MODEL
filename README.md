@@ -90,7 +90,7 @@ Confusion Matrix:
 #### Top Features (Importance & Effect)
 |Feature|Importance|Effect on Risk|Correlation|
 |-------|-----------|--------------|
-Geo_Code_te|0.292|Increases Risk|0.343|
+|Geo_Code_te|0.292|Increases Risk|0.343|
 |Building_Fenced_V|0.583|Increases Risk|
 |Insured_Period|0.391|Increases Risk|
 |Building_Age|0.359|Increases Risk|
