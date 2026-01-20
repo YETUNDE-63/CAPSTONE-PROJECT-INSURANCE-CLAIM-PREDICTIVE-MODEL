@@ -13,7 +13,7 @@
 
 [Exploratory Data Analysis](#exploratory-data-analysis)
 
-[Models Development](#models-development)
+[Models Development and Evaluation](#models-development-and-evaluation)
 
 [Data Visualization](#data-visualization)
 
@@ -30,25 +30,18 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 -------------------
 - Dataset size: 7160 rows × 18 columns
 - Features used: YearOfObservation, Insured_Period, Residential, Building_Painted, Building_Fenced, Garden, Settlement, Building Dimension, Building_Type, Date_of_Occupancy, NumberOfWindows, Date_of_Occupancy_missing, Building_Age, Log_Building_Dimension, Geo_Code_te
-- Target variable: Claim (1 = claim, 0 = no claim)
+- Target variable: Claim (1 = Claim, 0 = No Claim)
 - Preprocessing performed:
   - Missing values handled (e.g., NumberOfWindows)
-  - Categorical features label-encoded
+  - Label-encoded / One-hot encoding for categorical features
   - Target encoding applied to Geo_Code
-  - Log transformation for building dimension
- ##### Target Variable: Claim Occurrence
-  - 0 → No Claim
-  - 1 → Claim
-##### Dataset Characteristics
+  - Log transformation and binning for skewed numerical features
+  - Train-test split performed before modeling
+ ##### Dataset Characteristics
 - Mixed feature types: numerical, categorical, binned variables
 - High-cardinality categorical feature (Geo_Code)
 - Presence of missing values handled explicitly (e.g., _missing flags)
 - Strong class imbalance (claims are minority)
-##### Preprocessing Highlights
-- One-hot encoding for categorical variables
-- Log transformation and binning for skewed numerical features
-- Explicit missing-value indicators retained
-- Train-test split performed before modeling
 
 ### Tool Used
 -------------------
