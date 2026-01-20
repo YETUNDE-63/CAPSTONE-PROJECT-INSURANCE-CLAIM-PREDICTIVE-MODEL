@@ -54,7 +54,7 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 ### Tool Used
 -------------------
 - python [Download Here](http://www.python.com)
-  1. Import Libraries and Load Dataset
+  1. Import Libraries and Load Dataset 
   2. For Data Cleaning & Preprocessing
   3. For Visualizayion
   4. For Model Development
@@ -81,6 +81,9 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 
 ### Models Development
 -----------------------------
+##### Models Evaluated
+Three classification models developed and evaluated on the same processed dataset.
+
 ##### 1. Model type: Random Forest Classifier
 - n_estimators: 300
 - Class weighting: Balanced to mitigate class imbalance
