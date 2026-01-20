@@ -83,8 +83,8 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 ### Models Development and Evaluation
 -------------------------------------
 Three classification models were developed and evaluated on the same processed dataset:
-1. Random Forest (RF) : ensemble tree-based model capturing non-linear relationships
-2. Logistic Regression (LR) : baseline, interpretable linear model
+1. Random Forest (RF) - ensemble tree-based model capturing non-linear relationships
+2. Logistic Regression (LR) - baseline, interpretable linear model
 3. XGBoost - gradient boosting model optimized for performance and class imbalance
 
 All models were evaluated using threshold tuning to better capture the minority (high-risk) class.
