@@ -141,6 +141,9 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 
 ### Data Visualization
 ----------------------
-#### 1. Random Forest Classifier
+##### 1. Random Forest Classifier
 <img width="800" height="500" alt="feature_importance_colored_chart" src="https://github.com/user-attachments/assets/201ea4fd-07c8-41ea-b600-45fce1489bb4" />
 
+##### 2. Logistic Regression
+
+<img width="1000" height="600" alt="LR_top_features_colored_chart" src="https://github.com/user-attachments/assets/bcc9ab36-1ddb-4890-9c6c-762ae41f66ad" />
