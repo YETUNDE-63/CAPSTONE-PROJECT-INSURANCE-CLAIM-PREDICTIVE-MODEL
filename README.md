@@ -205,7 +205,9 @@ Threshold Analysis:
 ##### 2. Logistic Regression
 <img width="1000" height="600" alt="LR_top_features_colored_chart" src="https://github.com/user-attachments/assets/bcc9ab36-1ddb-4890-9c6c-762ae41f66ad" />
 
-"C:\Users\Admin\OneDrive - wesabimarket\Desktop\AI NOW BOOTCAMP DSML CAPSTONE PROJECT\XGBoost_Top_Feature_Importance.png"
+##### 2. XGBoost Classifier
+<img width="790" height="490" alt="XGBoost_Top_Feature_Importance" src="https://github.com/user-attachments/assets/76be106d-11d6-4df9-9cfb-1c3b24a95fb2" />
+
 ### Links
 ----------------------
 [YETUNDE AKINMOJU_CAPSTONE PROJECT_INSURANCE_CLAIM.html](https://github.com/user-attachments/files/24732334/YETUNDE.AKINMOJU_CAPSTONE.PROJECT_INSURANCE_CLAIM.html)
