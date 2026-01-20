@@ -139,3 +139,8 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 |Geo_Code_74173|-0.250|Decreases Risk|
 |Geo_Code_42187|-0.245|Decreases Risk|
 
+### Data Visualization
+----------------------
+#### 1. Random Forest Classifier
+<img width="800" height="500" alt="feature_importance_colored_chart" src="https://github.com/user-attachments/assets/201ea4fd-07c8-41ea-b600-45fce1489bb4" />
+
