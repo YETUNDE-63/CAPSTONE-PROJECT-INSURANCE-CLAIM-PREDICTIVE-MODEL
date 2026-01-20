@@ -68,7 +68,7 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 
 ### Models Development
 -----------------------------
-1. Model type: Random Forest Classifier
+##### 1. Model type: Random Forest Classifier
 - n_estimators: 300
 - Class weighting: Balanced to mitigate class imbalance
 - Train-test split: 80/20 stratified
@@ -103,6 +103,11 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 |Insured_Period|0.052|Increases Risk|0.084|
 
 
+##### 2. Model type: Logistic Regression
+- Class weighting: Balanced to handle class imbalance
+- Train-test split: 80/20 stratified
+- Threshold tuning: Thresholds tested from 0.5 down to 0.2
+- Model predicts both claim occurrence and claim likelihood (probability output)
 
 
 #### Top Features (Coefficient & Effect)
