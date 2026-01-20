@@ -53,10 +53,13 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 ### Tool Used
 -------------------
 - python [Download Here](http://www.python.com)
-  1. Import Libraries and Load Dataset 
-  2. For Data Cleaning & Preprocessing
-  3. For Visualizayion
-  4. For Model Development
+  1. Import Libraries and
+  2. Load Dataset
+ "C:\Users\Admin\OneDrive - wesabimarket\Desktop\AI NOW BOOTCAMP DSML CAPSTONE PROJECT\Train_data.csv"
+   
+  4. For Data Cleaning & Preprocessing
+  5. For Visualizayion
+  6. For Model Development
 
 ### Data Cleaning and Preprocessing
 -----------------------------------
