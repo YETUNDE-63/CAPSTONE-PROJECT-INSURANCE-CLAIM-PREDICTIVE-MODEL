@@ -75,10 +75,11 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 - Threshold tuning: Optimal threshold for class 1 set at 0.25
 - Model predicts both claim occurrence and claim likelihood
 
-- Model Performance (Test Set, Threshold=0.25)
-Confusion Matrix:
-[[787 318]
- [174 153]]
+ ~~~Model Performance (Test Set, Threshold=0.25)
+    Confusion Matrix:
+    [[787 318]
+    [174 153]]
+ ~~~
 
  ~~~Classification Report:
     Class 0: Precision=0.82, Recall=0.71, F1=0.76
