@@ -139,6 +139,13 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 |Geo_Code_74173|-0.250|Decreases Risk|
 |Geo_Code_42187|-0.245|Decreases Risk|
 
+
+##### 3. Model type: XGBoost Classifier
+- Handles non-linearity + interactions
+- Performs well on imbalanced datasets
+- Often outperforms RF with proper tuning
+- Provides feature importance for reporting
+
 ### Data Visualization
 ----------------------
 
