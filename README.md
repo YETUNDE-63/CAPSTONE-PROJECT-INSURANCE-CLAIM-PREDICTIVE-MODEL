@@ -88,18 +88,9 @@ Confusion Matrix:
  ~~~
 
 #### Top Features (Importance & Effect)
-|Feature|Importance|Effect on Risk|Correlation|
-|-------|-----------|--------------|
-|Geo_Code_te|0.292|Increases Risk|0.343|
-|Building_Fenced_V|0.583|Increases Risk|
-|Insured_Period|0.391|Increases Risk|
-|Building_Age|0.359|Increases Risk|
-|Geo_Code_6088|0.249|Increases Risk|
-|Garden_V|-0.425|Decreases Risk|
-|Geo_Code_74010|-0.284|Decreases Risk|
-|Geo_Code_19031|-0.268|Decreases Risk|
-|Geo_Code_74173|-0.250|Decreases Risk|
-|Geo_Code_42187|-0.245|Decreases Risk|
+|Heading 1|Heading 2|Heading 3|Heading 4|
+|---------|---------|---------|---------|
+|Table 1|Table 2|Table 3|Table 4|
 
 Feature	Importance	Effect on Risk	Correlation
 Geo_Code_te	0.292	Increases Risk	0.343
