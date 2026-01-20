@@ -154,4 +154,5 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 [YETUNDE AKINMOJU_CAPSTONE PROJECT_INSURANCE_CLAIM.ipynb](https://github.com/user-attachments/files/24732353/YETUNDE.AKINMOJU_CAPSTONE.PROJECT_INSURANCE_CLAIM.ipynb)
 
 ### Acknowledgement
-----------------------
+-------------------
+I am grateful to the Almighty God for the privilege to be part of this DSML journey. My appreciation also goes to The Incubator Hub, the Admins; and our Well-equipped & talented Facilitators: Ezekiel Ogundepo & Israel Odeajo for the great job done, for taken us through Python Basics, Machine Learning (from initial phase to the phase of building models for both classification & prediction). God bless them all....
