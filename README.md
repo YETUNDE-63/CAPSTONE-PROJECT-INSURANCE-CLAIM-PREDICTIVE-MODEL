@@ -99,7 +99,7 @@ All models were evaluated using threshold tuning to better capture the minority 
  ~~~Model Performance (Test Set, Threshold=0.25)
     Confusion Matrix:
     [[787 318]
-    [174 153]]
+     [174 153]]
  ~~~
 
  ~~~Classification Report:
@@ -132,7 +132,7 @@ All models were evaluated using threshold tuning to better capture the minority 
  ~~~Model Performance (Test Set, Example Threshold=0.5)
     Confusion Matrix:
     [[776 329]
-    [158 169]]
+     [158 169]]
  ~~~
 
 ~~~Classification Report:
@@ -182,19 +182,20 @@ Threshold Analysis:
    Interpretation: Model predicts both claim occurrence and claim likelihood. Improved claim recall, acceptable precision trade-off.
 ~~~
 
-
- Feature	       Importance
-1225	 Building_Dimension_Bin_(2750.0, 11785.22]	     0.050959
-3	     Building Dimension	                             0.014270
-8	     Log_Building_Dimension	                         0.012992
-4	     Building_Type	                                 0.008451
-1221	Building_Age_Bin_(56.0, 165.0]	                 0.008426
-300	    Geo_Code_34902	                                 0.008027
-15	    NumberOfWindows_2	                             0.007529
-875	    Geo_Code_75114	                                 0.007404
-6	    Date_of_Occupancy_missing	                     0.007315
-1186	Geo_Code_94080	                                 0.007220
-                 
+#### Top Features (Feature & Importance)
+|         |Feature|Importance|
+|---------|---------|---------|
+|1225|Building_Dimension_Bin_(2750.0, 11785.22]|0.050959|
+|3|Building Dimension|0.014270|
+|8|Log_Building_Dimension|0.012992|
+|4|Building_Type|0.008451|
+|1221|Building_Age_Bin_(56.0, 165.0]|0.008426|
+|300| Geo_Code_34902|0.008027|
+|15|NumberOfWindows_2|0.007529|
+|875|Geo_Code_75114|0.007404|
+|6|Date_of_Occupancy_missing|0.007315|
+|1186|Geo_Code_94080|0.007220|
+                
 ### Data Visualization
 ----------------------
 
