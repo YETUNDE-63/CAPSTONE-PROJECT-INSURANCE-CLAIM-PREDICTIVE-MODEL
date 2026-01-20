@@ -147,5 +147,8 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 <img width="1000" height="600" alt="LR_top_features_colored_chart" src="https://github.com/user-attachments/assets/bcc9ab36-1ddb-4890-9c6c-762ae41f66ad" />
 
 ### Links
-"C:\Users\Admin\OneDrive - wesabimarket\Desktop\AI NOW BOOTCAMP DSML CAPSTONE PROJECT\YETUNDE AKINMOJU_CAPSTONE PROJECT_INSURANCE_CLAIM.html"
-"C:\Users\Admin\OneDrive - wesabimarket\Desktop\AI NOW BOOTCAMP DSML CAPSTONE PROJECT\YETUNDE AKINMOJU_CAPSTONE PROJECT_INSURANCE_CLAIM.ipynb"
+~~~
+    "C:\Users\Admin\OneDrive - wesabimarket\Desktop\AI NOW BOOTCAMP DSML CAPSTONE PROJECT\YETUNDE AKINMOJU_CAPSTONE PROJECT_INSURANCE_CLAIM.html"
+
+    "C:\Users\Admin\OneDrive - wesabimarket\Desktop\AI NOW BOOTCAMP DSML CAPSTONE PROJECT\YETUNDE AKINMOJU_CAPSTONE PROJECT_INSURANCE_CLAIM.ipynb"
+~~~
