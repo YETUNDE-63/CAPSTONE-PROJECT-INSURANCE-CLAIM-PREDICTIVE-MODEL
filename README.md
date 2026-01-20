@@ -37,7 +37,23 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
   - Categorical features label-encoded
   - Target encoding applied to Geo_Code
   - Log transformation for building dimension
- 
+
+ ##### Target Variable: Claim Occurrence
+  0 → No Claim
+  1 → Claim
+
+##### Dataset Characteristics
+- Mixed feature types: numerical, categorical, binned variables
+- High-cardinality categorical feature (Geo_Code)
+- Presence of missing values handled explicitly (e.g., _missing flags)
+- Strong class imbalance (claims are minority)
+
+##### Preprocessing Highlights
+- One-hot encoding for categorical variables
+- Log transformation and binning for skewed numerical features
+- Explicit missing-value indicators retained
+- Train-test split performed before modeling
+
 ### Tool Used
 -------------------
 - python [Download Here](http://www.python.com)
