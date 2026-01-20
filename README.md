@@ -145,6 +145,10 @@ The purpose of this analysis is to determine whether a claim is likely to occur 
 - Performs well on imbalanced datasets
 - Often outperforms RF with proper tuning
 - Provides feature importance for reporting
+- Model is not overfitting on noise
+- Features align with real-world insurance logic
+- Binning + log transforms improved signal clarity
+- Geo codes are contributing meaningfully, not dominating
 
 ### Data Visualization
 ----------------------
