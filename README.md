@@ -180,7 +180,7 @@ Threshold Analysis:
 ~~~
 
 #### Top Features (Feature & Importance)
-|         |Feature|Importance|
+|         |Feature|Importance Score|
 |---------|---------|---------|
 |1225|Building_Dimension_Bin_(2750.0, 11785.22]|0.050959|
 |3|Building Dimension|0.014270|
